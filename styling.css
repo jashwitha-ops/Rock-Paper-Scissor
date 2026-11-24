@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1fr;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.main_div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    column-gap: 30px;
+    flex: 1fr 1fr 1fr;
+}
+
+.rock,.paper,.scissor{
+    background-color: black;
+    border-radius: 50%;
+    height:max-content;
+    width: max-content;
+    font-size: 120px;
+    border: solid;
+    border-color: aliceblue;
+    cursor: pointer;
+    color: white;
+}
+
+.rock:hover,.paper:hover,.scissor:hover{
+    background-color: azure;
+    border-radius: 50%;
+    height:max-content;
+    width: max-content;
+    font-size: 120px;
+    border: solid;
+    border-color: black;
+}
